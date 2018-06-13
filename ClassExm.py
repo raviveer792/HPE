@@ -10,3 +10,4 @@ class Car:
 var = Car(56)
 print(var.xyz)
 print(var.turn_left(30))
+print(var.xyz)
