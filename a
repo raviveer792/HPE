@@ -1,0 +1,10 @@
+import json
+json_data = '''{
+"integer":1,
+"inner_object": {"nothing": null,"boolean": false,"string": "foo"},
+"list_of_strings":["one","two"]
+}'''
+python_dict = json.loads(json_data)
+print(json_data)
+print(python_dict)
+
