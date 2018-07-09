@@ -1,0 +1,10 @@
+# Tensor Flow
+
+import tensorflow as tf
+
+a=tf.add(5,10)
+'''se=tf.Session()
+print(se.run(a))
+
+se.close()'''
+print(a)
