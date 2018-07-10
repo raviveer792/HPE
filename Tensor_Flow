@@ -1,0 +1,22 @@
+'''
+import tensorflow as tf
+
+d = tf.add(4,8)
+ses=tf.Session()
+print(ses.run(d))
+ses.close()
+'''
+
+import tensorflow as tf
+
+x=23
+y=8
+
+op1=tf.add(x,y)
+op2=tf.multiply(x,y)
+op3=tf.pow(x,y)
+with tf.Session() as sess:
+    op3=sess.run(op3)
+    print(op3)
+    print(sess.run(op2))
+    print(sess.run(op1))
